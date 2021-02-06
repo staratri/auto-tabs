@@ -1,0 +1,20 @@
+.tabs-container {
+  flex: 1;
+  background: #ffffff;
+  border-radius: 5px;
+  height: 500px;
+  min-width: 200px;
+  &__header {
+    padding: 15px 20px;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    h2 {
+      font-weight: 500;
+      line-height: 1.2;
+      font-size: 20px;
+      color: #555C62;
+    }
+  }
+  &__content {
+    padding: 20px;
+  }
+}
